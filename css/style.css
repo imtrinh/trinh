@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* CSS Document */
+main{
+	width: 100%; min-height: 500px
+}
+.gach-chan{
+	border-bottom: 2px solid darkred
+}
+.vien{
+	width: 100%; min-height: 200px; border: 1px solid darkred; padding: 10px; margin-top: 30px
+}
+.text-do{
+	color: darkred
+}
+.hinh{
+	width: 100%;position: relative; overflow: hidden
+}
+.icon{
+	width: 80%; height: 40px; position: absolute; left: 10%; top: -30%; display: flex; justify-content: space-around; transition: all 1s
+}
+.icon a{
+	width: 40px; height: 40px; background-color: darkred; color: white; border-radius: 50%;display: flex; justify-content: center;align-items: center;text-decoration: none
+}
+.icon a:hover{
+	background-color: #CCCCCC; color: darkred
+}
+.hinh:hover .icon{
+	top: 40%
+}
+#feature{
+	width: 100%; min-height: 700px; background-image: url("../images/bg2.png");background-repeat: no-repeat; background-size: cover;background-position: bottom center
+}
+.vien-trang{
+	width: 100%;min-height: 120px; border: 1px solid white; text-align: center; padding: 30px;margin-top: 20px
+}
+#feature a{
+	text-decoration: none; color: darkred;
+}
+#feature a:hover
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .banner {
+      width: 100%; min-height: 300px
+    }
+
+    .banner-text {
+      max-width: 50%;
+    }
+
+    .banner-text h1 {
+      font-size: 48px;
+      margin: 0 0 20px;
+    }
+
+    .banner-text p {
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    .banner img {
+      max-height: 300px;
+      object-fit: contain;
+    }
+
+    @media (max-width: 768px) {
+      .banner {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+      }
+
+      .banner-text {
+        max-width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .banner img {
+        max-width: 80%;
+        height: auto;
+      }
+    }
+.caption{
+	width: 30%; position: absolute; text-align: left ;
+}
+.caption h1{
+	color: #EC3F42; font-size: 40px
+}
+.caption p{
+	color: white; font-size: 20px
+}
+.menu {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  gap: 30px; /* Khoảng cách giữa các mục */
+  margin-top: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 30px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #007bff;
+}
+.img-phone {
+  width: 100%;
+  height: 250px;  /* hoặc 300px tùy ý */
+  object-fit: cover; /* Giữ tỉ lệ và cắt bớt để đầy khung */
+}
+.w-40{
+	width: 40%;padding: 15px;float: left
+}
+.w-60{
+	width: 60%;padding: 15px;float: left
+}
+.text-xanh{
+	color: blue
+}
+.vien-xam{
+	width: 100%;min-height: 300px; border: 1px solid #BFBFBF; border-radius: 10px; padding: 15px;margin-bottom: 20px
+}
+.form-control{
+	padding: 8px; margin-bottom: 10px; width: 100%
+}
+.btn{
+	padding: 10px 20px ;
+	background-color: #825FFA; border: none;
+	color: white; border-radius: 15px; cursor: pointer;margin-right: 10px
+}
+.btn:hover{
+	background-color: #2710AB
+}
+.btn-nhap{
+	padding: 10px 20px;
+	background-color: #FB7173; border: none;
+	color: white; border-radius: 15px; cursor: pointer
+}
+.btn-nhap:hover{
+	background-color: #C40609
+}
+.img-100{
+	width: 100%; height: auto;
+}
+.container{
+	width: 80%; margin:0 
+		auto
+}
+.w-25{
+	width: 25%;padding: 15px;float: left
+}
+.vien{
+	width: 100%;padding: 10px;border: solid 1px blue ;border-radius: 10px;text-align: center
+}
+.bo-goc{
+	border-radius: 10px
+}
+#feature{
+	width: 100%; min-height: 500px; background-image: url("../img/banner 3.jpg");background-repeat: no-repeat; background-size: cover;background-position: bottom center
+}
+.vien-trang{
+	width: 100%;min-height: 120px; border: 1px solid white; text-align: center; padding: 30px;margin-top: 20px
+}
+#feature a{
+	text-decoration: none; color: white;
+}
+#feature a:hover{
+	color: white
+}
+
+
